@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'basestyle.css' %}" />
+<style>
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.Detailworks h1{
+
+}
+</style>
+{% block content %}
+<img src="{{ batman.productWork }}" alt="Avatar" style="width:100%">
+<h1 class="Detailworks" style="text-align: left; font-size: 15px; font-family: 'Font2';">{{ batman.productDetail|linebreaks }}</h1>
+{% endblock content %}

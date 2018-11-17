@@ -1,0 +1,59 @@
+body{
+	background-color:#32CD32;
+	color: #32CD32;
+}
+
+@font-face {
+	font-family: 'Font';
+	src: url('fonts/Quicksand-Bold.otf');
+	font-style: normal;
+}
+
+.h5videodetail , h1{
+	font-family:'Font';
+	color: black;
+	font-size: 20px;
+}
+
+
+
+
+body {
+  margin: 0;
+}
+
+
+@font-face {
+	font-family: 'Fonts';
+	src: url('fonts/28_Days_Later.ttf');
+	font-style: normal;
+}
+
+.protitle a{
+	color: #FFFFFF;
+	font-family: 'Fonts';
+
+}
+
+@font-face {
+	font-family: 'Font2';
+	src: url('fonts/Quicksand-Light.otf');
+	font-style: oblique;
+}
+
+.h1detail h1{
+	font-family: 'Font2';
+}
+
+.h2videotitle , h1{
+	text-align: center;
+	font-family:'Font';
+	color: black;
+	font-size: 20px;
+}
+
+.Detailworks h1{
+	 text-align: left;
+	 font-size: 17px;
+	 font-family: 'Fonts';
+}
